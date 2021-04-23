@@ -98,7 +98,7 @@ class Comment(db.Model):
     text = db.Column(db.Text, nullable=False)
 
 # Used to create db tables
-db.create_all()
+# db.create_all()
 
 
 @app.route('/')
